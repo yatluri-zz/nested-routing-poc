@@ -1,0 +1,48 @@
+<!-- <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Componet Routing</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a routerLink="first-child">First Child <span class="sr-only">(current)</span></a></li>
+        <li><a routerLink="second-child">Second Child</a></li>
+        <li><a routerLink="third-child">Third Child</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+<div class="container container-fluid container-template">
+  <div class="row route-container">
+    <div class="col-xl-1 col-lg- col-md-1 col-sm-1 col-xs-1">
+      <button *ngIf='forwardRouteCurrentCount > 1' type="button" class="btn btn-default site-route-btn pull-left" (click)="onRouteBack()">
+        <span class="site-left-arrow">&#8249;</span>
+      </button>
+    </div>
+    <div class="col-xl-10 col-md-10 col-xs-10 child-route">
+      <div class="modal-body">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="modal-footer">
+        <h4 class="pull-left" i18n='ParentRouteFooter|Footer message for ParentRoute@@ParentRouteFooter'>
+          STEP &nbsp; {{forwardRouteCurrentCount}}&nbsp; OF&nbsp;{{forwardRouteMaxCount}}
+        </h4>
+      </div>
+    </div>
+    <div class="col-xl-2 col-lg-1 col-md-1 col-sm-1 col-xs-1">
+      <button type="button" class="btn btn-default site-route-btn pull-right" (click)='onRoutForward()' [disabled]='forwardRouteCurrentCount === 3'>
+        <span class="site-right-arrow">&#8250;</span>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="body-parent-content">
+</div>

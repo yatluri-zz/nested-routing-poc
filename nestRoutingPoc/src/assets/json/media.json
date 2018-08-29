@@ -1,0 +1,49 @@
+{
+  "Media": [
+    {
+      "Id": 1,
+      "Name": "1",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9603/Square_Blue.jpg"
+    },
+    {
+      "Id": 2,
+      "Name": "2",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9607/Square_Pink.jpg"
+    },
+    {
+      "Id": 3,
+      "Name": "3",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9606/Square_Orange.jpg"
+    },
+    {
+      "Id": 4,
+      "Name": "4",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9609/Square_Red.jpg"
+    },
+    {
+      "Id": 5,
+      "Name": "5",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9610/Square_Yellow.jpg"
+    },
+    {
+      "Id": 6,
+      "Name": "6",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9567/Big_Grey.jpg"
+    },
+    {
+      "Id": 7,
+      "Name": "7",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9557/Natural_Black.jpg"
+    },
+    {
+      "Id": 8,
+      "Name": "8",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9526/Automotive.jpg"
+    },
+    {
+      "Id": 9,
+      "Name": "9",
+      "MediaUrl": "https://commonmedia.stage-asicentral.com/00000/9579/Spiritual_Black.jpg"
+    }
+  ]
+}

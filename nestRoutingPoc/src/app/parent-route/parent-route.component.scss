@@ -1,0 +1,77 @@
+.body-parent-content {
+  // background-color: wheat !important;
+  background: url('https://commonmedia.stage-asicentral.com/100000/103280/sublime_original.png')
+    no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.8;
+  z-index: -1;
+  filter: blur(5px);
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.site-route-btn {
+  background: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 15rem;
+  font-size: larger;
+  font-weight: bolder;
+}
+.site-route-btn {
+  &:focus,
+  &:active {
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #337ab7;
+  }
+}
+
+.btn {
+  &:focus,
+  &:active {
+    outline: none !important;
+  }
+}
+
+.route-container {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  top: 25%;
+  left: 10%;
+}
+.child-route {
+  border-radius: 4px;
+  box-shadow: 0 0 4px #b1abab;
+  background-color: #fff !important;
+  z-index: 999 !important;
+  opacity: 1;
+}
+
+.container-template {
+  position: absolute;
+  top: 25%;
+  opacity: 1 !important;
+  // background-color: yellow !important;
+  z-index: 999 !important;
+}
+.body-content {
+  background-color: red !important;
+  margin-top: 50%;
+}
